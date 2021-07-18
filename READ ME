@@ -10,3 +10,15 @@ git push -u origin main
 git remote add origin https://github.com/sabot73/review.git
 git branch -M main
 git push -u origin main
+
+//브론치 추가
+git init
+git remote add origin https://github.com/~.git
+git pull origin 브런치이름
+git checkout -b 브런치이름
+git add .
+git commit -m "어쩌구"
+git push origin 브런치이름
+
+* 해당 branch가 이미 생성되어야 할 수도 있으며 깃 웹에서 직접 추가할 수 있음
+
